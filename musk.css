@@ -11,16 +11,20 @@ h1
 h3
 {
     text-decoration: underline;
+    text-align: center;
 }
 p
 {
     color:blue;
-}
-.leftbox
-{
-    float: left;
+    
 }
 .rightbox
 {
     float: right;
+}
+li:nth-child(odd) {
+    color: red;
+}
+li:nth-child(even) {
+    color: blue;
 }
