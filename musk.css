@@ -28,3 +28,8 @@ li:nth-child(odd) {
 li:nth-child(even) {
     color: blue;
 }
+iframe
+{
+    display: block;
+    margin: auto;
+}
